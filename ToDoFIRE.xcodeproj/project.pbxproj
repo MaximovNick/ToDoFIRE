@@ -86,7 +86,6 @@
 				A99C8AFC11A44A694B5A0D24 /* Pods-ToDoFIRE.debug.xcconfig */,
 				BFC75578F007521E1CC14FFB /* Pods-ToDoFIRE.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -367,6 +366,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JPSP84G8W5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDoFIRE/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -396,6 +396,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JPSP84G8W5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDoFIRE/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

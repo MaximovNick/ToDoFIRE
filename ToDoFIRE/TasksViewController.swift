@@ -6,21 +6,32 @@
 //
 
 import UIKit
+import Firebase
 
 class TasksViewController: UIViewController {
-  
+    
     @IBOutlet var tableView: UITableView!
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         
     }
     
     @IBAction func addTapped(_ sender: UIBarButtonItem) {
     }
     
+    @IBAction func signOutButtonPressed(_ sender: UIBarButtonItem) {
+        do {
+            try Auth.auth().signOut()
+            
+        } catch {
+            print(error.localizedDescription)
+        }
+        
+        dismiss(animated: true)
+    }
     
 }
 
